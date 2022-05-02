@@ -23,13 +23,14 @@ ul {
 a {
     text-decoration: none;
     text-transform: uppercase;
+    color: black;
 }
 
 nav {
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
     letter-spacing: .05em;
-    background-color: #e4e4e4;
+    background-color: #f0f0f0;
     padding: 25px;
 }
 
@@ -82,10 +83,19 @@ footer {
     margin-top: auto;
     padding: 0 20px;
     height: 100px;
+    border-top: 1px solid lightgray;
 }
 
 .full {
     display: none;
+}
+
+.img {
+    max-width: 100%;
+}
+
+h3 {
+    margin: 10px auto;
 }
 
 /*----MEDIA QUERIES----*/
