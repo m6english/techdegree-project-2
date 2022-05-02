@@ -52,8 +52,9 @@ h1 a, .top-nav a {
 
 .top-nav li {
     padding: 10px 0;
-    margin: 5px auto;
+    margin: 10px 0;
     background-color: #fff;
+    font-weight: bold;
 }
 
 .top-nav a {
@@ -67,12 +68,12 @@ h1 a, .top-nav a {
     font-family: 'Roboto', sans-serif;
 }
 
-.col {
-    margin: 10px;
+.col, .portfolio {
+    margin: 10px auto;
     min-height: 250px;
     color: black;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: .5px;
     padding-top: 5px;
 }
 
@@ -96,8 +97,24 @@ footer {
 
 h3 {
     margin: 10px auto;
+    text-transform: uppercase;   
 }
 
+.portfolio {
+    min-height: auto;
+    text-transform: uppercase;
+}
+
+.box-7 {
+    width: 70%;
+    margin: 2em auto;    
+}
+
+.phone, .email {
+    margin: 15px auto;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
 /*----MEDIA QUERIES----*/
 
 @media (min-width: 768px) {
