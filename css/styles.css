@@ -128,7 +128,7 @@ h3 {
     align-items: center;
 }
 .bio-2 {
-    padding: 3% 5%;
+    padding: 3% 5% 3%;
     text-align: center;
     letter-spacing: 0.1em;
 }
@@ -166,9 +166,6 @@ h3 {
         display: inline-block;
         margin-left: 20px;
     }
-    .box-8, .box-9 {
-        margin: 0px;
-    }
     .bio {
         display: flex;
         flex-direction: row-reverse;
@@ -176,7 +173,15 @@ h3 {
     .item {
         flex-basis: 50%;
         background-color: #f0f0f0;
+        text-align: left;
     }
+    .img-2 {
+        margin: 0 10%;
+    }
+    .bio-2 {
+        padding: 0 0 3% 3%;
+    }
+    
 }
 
 @media (min-width: 1024px) {
