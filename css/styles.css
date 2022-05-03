@@ -126,6 +126,7 @@ h3 {
     flex-direction: column;
     background-color: #f0f0f0;
     align-items: center;
+    margin: 0 auto;
 }
 .bio-2 {
     padding: 3% 5% 3%;
@@ -176,10 +177,13 @@ h3 {
         text-align: left;
     }
     .img-2 {
-        margin: 0 10%;
+        max-width: 100%;
     }
     .bio-2 {
         padding: 0 0 3% 3%;
+    }
+    .bio-1 {
+        padding: 0 0 0 5%;
     }
     
 }
@@ -197,5 +201,9 @@ h3 {
     }
     .col {
         flex-basis: calc(33.333% - 20px);
+    }
+    .img-2 {
+        padding: 0 15%;
+        max-width: 600px;
     }
 }
