@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
     color: black;
+    background-color: rgb(215, 241, 250);
     
 }
 
@@ -37,6 +38,7 @@ nav {
 
 h1, .top-nav {
     text-align: center;
+    color: red;
 }
 
 .top-nav, .top-nav li {
@@ -133,6 +135,9 @@ h3 {
     text-align: center;
     letter-spacing: 0.1em;
 }
+a:hover {
+    color: red;
+}
 
 
 /*----MEDIA QUERIES----*/
@@ -185,6 +190,9 @@ h3 {
     .bio-1 {
         padding: 0 0 0 5%;
     }
+    a:hover {
+        color: red;
+    }
     
 }
 
@@ -205,5 +213,8 @@ h3 {
     .img-2 {
         padding: 0 15%;
         max-width: 600px;
+    }
+    a:hover {
+        color: red;
     }
 }
