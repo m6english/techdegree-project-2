@@ -181,9 +181,6 @@ a:hover {
         background-color: #f0f0f0;
         text-align: left;
     }
-    .img-2 {
-        max-width: 100%;
-    }
     .bio-2 {
         padding: 0 0 3% 3%;
     }
@@ -212,7 +209,6 @@ a:hover {
     }
     .img-2 {
         padding: 0 15%;
-        max-width: 600px;
     }
     a:hover {
         color: red;
